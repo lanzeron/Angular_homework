@@ -1,0 +1,16 @@
+.productImage {
+  width: 30%;
+  float: left;
+}
+.productDiscriptiion {
+  width: 70%;
+  float: right;
+}
+.product {
+  float: left;
+  padding: 20px;
+}
+.product  a {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="SimpleApp">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="libs/bootstrap-3.3.6-dist/css/bootstrap.min.css" charset="utf-8">
+	<link rel="stylesheet" href="style.css" charset="utf-8">
+
+</head>
+<body>
+<div>
+	<ul class="nav nav-tabs">
+  <li role="presentation"><a href="#/view3">Home</a></li>
+  <!-- <li role="presentation"><a href="#/view2">Product page</a></li> -->
+  <li role="presentation"><a href="#/view1">Add</a></li>
+  <li role="presentation"><a href="#/view4">My orgers</a></li>
+</ul>
+<div ng-view></div>
+
+</div>
+<script src="libs/angular.min.js"></script>
+<script src="libs/angular-route.js"></script>
+<script src="libs/jquery-1.12.0.min.js"></script>
+
+<script src="libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+
+<script src="app/SimpleApp.js"></script>
+<script src="app/controllers/productController.js"></script>
+<script src="app/controllers/OrderController.js"></script>
+<script src="app/servises/simpleFactory.js"></script>
+
+</body>
+</html>
